@@ -1,0 +1,105 @@
+/* #4a4a4a (Texto del menú)
+#3CDBC0 (color de fondo de la página)
+#FFFFFF (Color de texto de "Creando diversidad digital") */
+
+body{
+    background-color: #3CDBC0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header__flex-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.header__logo{
+    margin: 10px auto;
+}
+
+
+.header__nav{
+    width: 155px;
+    margin: 0px auto 13px;
+    font-size: 16px;
+    color: #4a4a4a;
+
+}
+
+.header__navlist{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.item1{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    
+}
+
+.item2{
+    margin: 0 0 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #4a4a4a;
+
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main__text{
+    width: 50%;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 0;
+}
+
+@media all and (min-width:768px){
+    
+    .header__flex-container{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    
+    .main__text{
+        font-size: 40px;
+    }
+
+    .header__logo{
+        margin: 20px 0;
+    }
+
+    .header__nav{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        margin: 0;
+    }
+}
+
