@@ -9,6 +9,7 @@
     padding: 0; 
 }
 
+/* HEADER */ 
 .header{
     background-color: white;
     position: fixed;
@@ -60,12 +61,12 @@
     margin: 0 0 0 10px;
 }
 
+/* MAIN */ 
 .main{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .main__text{
@@ -73,8 +74,11 @@
     color: #FFFFFF;
     font-size: 30px;
     margin: 0 auto;
+    text-align: center;
+    text-transform: capitalize;
 }
 
+/* MEDIA */ 
 @media all and (min-width:768px){
     
     .header__flex-container{
@@ -84,6 +88,7 @@
     }
     
     .main__text{
+        width: 220px;
         font-size: 40px;
     }
 
