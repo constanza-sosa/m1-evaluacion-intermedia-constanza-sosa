@@ -1,3 +1,4 @@
+
 /* #4a4a4a (Texto del menú)
 #3CDBC0 (color de fondo de la página)
 #FFFFFF (Color de texto de "Creando diversidad digital") */
@@ -73,10 +74,11 @@ a{
 }
 
 .main__text{
-    width: 50%;
+    width: 160px;
     color: #FFFFFF;
     font-size: 30px;
-    margin: 0;
+    margin: 0 auto;
+    
 }
 
 @media all and (min-width:768px){
